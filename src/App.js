@@ -109,7 +109,7 @@ function evaluate({ currentOperand, previousOperand, operation }) {
     case "+":
       computation = prev + current;
       break;
-    case "_":
+    case "-":
       computation = prev - current;
       break;
     case "*":
